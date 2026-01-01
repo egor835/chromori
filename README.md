@@ -4,6 +4,15 @@ OMORI in a browser
 
 ![hero_capitalism](.github/assets/hero_capitalism.png)
 
+# Warning
+
+This project is a (somewhat) PoC. It is NOT meant to be accessed from public, because it DOESN'T have any security to it's fs api (anyone can read/write pretty much any file/directory).
+
+If you ask me:
+-   it listens on 0.0.0.0 so I can run server on my pc and play the game on the phone
+-   it was made only pretty much only for this ^^^
+-   if you still want to allow access to this from public, make a container or smth
+
 # Prerequisites
 
 -   [OMORI](https://store.steampowered.com/app/1150690/OMORI)

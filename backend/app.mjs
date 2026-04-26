@@ -119,7 +119,8 @@ if (!config.key || !config.gamePath) {
     registerFs(app);
     registerStatic(app);
 
-    app.listen(8000, "0.0.0.0", () => {
-        console.log("chromori is running on http://localhost:8000");
+    const PORT = process.env.PORT || 8000;
+    app.listen(PORT, "0.0.0.0", () => {
+        console.log("chromori is running");
     });
 }

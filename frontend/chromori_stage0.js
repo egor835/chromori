@@ -44,7 +44,7 @@ globalThis.chromori = {
 
     decoder: new TextDecoder(),
     encoder: new TextEncoder(),
-    apiUrl: `http://${window.location.hostname}:8000/api`,
+    apiUrl: `http://${window.location.hostname}:${window.location.port || 80}/api`,
 
     createAchievementElement: function (name, description, icon, id) {
         const el = document.createElement("div");
